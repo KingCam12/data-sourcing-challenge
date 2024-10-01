@@ -1,7 +1,13 @@
+
 import requests
 import time
+from dotenv import load_dotenv
+import os
 import pandas as pd
 import json
+import os
+from datetime import datetime
+
 #had a hard time getting my API key, so I've replaced it with 'YOUR_KEY'
 # Query NYT API
 query_url = "https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=YOUR_KEY"
